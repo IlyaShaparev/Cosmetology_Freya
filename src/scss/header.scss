@@ -1,0 +1,69 @@
+@import url('./reset.scss');
+
+header {
+    position: relative;
+    z-index: 5;
+    user-select: none;
+    font-family: 'Aqum', serif;
+    width: 100%;
+    font-size: 40px;
+    background: url('./../header_5.avif') no-repeat;
+    -moz-background-size: 100%;                         /* Firefox 3.6+ */
+    -webkit-background-size: 100%;                      /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;                           /* Opera 9.6+ */
+}
+
+nav {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper_content{
+    color: #a5a133;
+}
+
+.wrapper_social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.wrapper_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.social_media {
+    margin: 10px;
+}
+
+.slogan {
+    font-size: 15px;
+    font-family: "Golos UI", serif;
+}
+
+.burger_button img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.burger_button img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+// НАписать REdux под меню
+// Подобрать основной цвет и цвет шрифта
+// Написать анимацию под выдвижение

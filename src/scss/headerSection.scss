@@ -1,0 +1,107 @@
+@import url('./reset.scss');
+
+.headerSection {
+  width: 100%;
+}
+
+.headerSection__wrapper {
+  width: 80%;
+  height: max-content;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.headerSection__box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  height: 50vh;
+  border: 10px solid white;
+  outline: rgba(17, 218, 118, 0.15) solid;
+  border-radius: 20px;
+  margin: 1em 0 4em 0;
+  background-size: cover;
+
+  .title__face, .title__massage, .title__cream {
+    opacity: 1;
+    color: #c6d286;
+    transition: .3s;
+    z-index: 6;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .to__pricelist {
+    font-family: "Golos UI", serif;
+    z-index: 7;
+    opacity: 0;
+    transform: translateY(2em);
+    transition: 0s;
+    pointer-events: none;
+  }
+
+}
+
+.headerSection__box:hover{
+
+  .title__face,  .title__massage, .title__cream {
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: .3s;
+    z-index: 6;
+    text-align: center;
+  }
+
+  .to__pricelist {
+    z-index: 7;
+    opacity: 1;
+    transform: translateY(-2em);
+    transition: 0.2s;
+    pointer-events: auto;
+  }
+
+}
+
+.headerSection__box:nth-child(1) {
+  background: url("./../components/subComponents/headerSection/masked_face.avif");
+  background-size: cover;
+}
+
+.headerSection__box:nth-child(2) {
+  background: url("./../components/subComponents/headerSection/back_vertical.avif");
+  background-size: cover;
+}
+
+.headerSection__box:nth-child(3) {
+  background: url("./../components/subComponents/headerSection/Rockes-on-a-back.avif");
+  background-size: cover;
+}
+
+.to__pricelist {
+  z-index: 7;
+  opacity: 0;
+  transform: translateY(2em);
+}
+
+
+.to__pricelist {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  heigth: 50px;
+  background-color: rgba(255, 255 , 255, 0.6);
+  border: 1px rgba(255, 255 , 255, 0.6) solid;
+  border-radius: 20px;
+}
+
+.to__pricelist:hover {
+  background-color: rgba(255, 255, 0, 0.4);
+  border: 1px rgba(255, 255, 0, 0.4) solid;
+}
+

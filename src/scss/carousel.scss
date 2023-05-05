@@ -1,0 +1,14 @@
+#infinite-carousel {
+  width: 100%;
+}
+
+.photo_box {
+  width: 300px;
+  height: 400px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+}

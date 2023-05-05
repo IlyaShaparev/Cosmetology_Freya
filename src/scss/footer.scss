@@ -1,0 +1,78 @@
+@import url('./reset.scss');
+
+$footer_back: #beba7c;
+$footer_back_2: #c0c3ac;
+
+.footer {
+    position: relative;
+    z-index: 5;
+    padding: 30px 0;
+    background-color: #293623;
+    color: #a5a133;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer_title, .map_title{
+    font-family: 'Aqum', sans-serif;
+    text-align: left;
+}
+
+#first_block, #second_block {
+    min-width: 45%;
+}
+
+.wrapper_address {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+.wrapper_contacts {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 32px auto;
+    grid-template-rows: auto;
+    min-width: 45%;
+}
+
+.footer_img {
+    width: 32px;
+    height: 32px;
+}
+
+.address, .phone, .email{
+    text-align: left;
+    // margin-top: 0.8rem;
+    margin-left: 1rem;
+    display: block;
+    font-family: "Golos UI", 'serif';
+}
+
+.phone {
+    margin-top: 0.8rem;
+}
+
+.email {
+    margin-top: 0.8rem;
+    grid-column-start: 2;
+}
+
+.map {
+    min-width: 500px;
+    min-height: 300px;
+}
+
+hr {
+    min-width: 200px; // Временно!
+}
+
+// Минимальный размер карты мешает адаптации на расширения >= 1024px 

@@ -1,0 +1,65 @@
+@import url('./reset.scss');
+
+$footer_back: #beba7c;
+$footer_back_2: #c0c3ac;
+$menu_back: #648427FF;
+$font_color: #b7b455;
+
+.menu__wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    transform: translateX(-100%);
+    transition: 1s;
+
+    .menu__content {
+        width: 30%;
+        height: 100%;
+        background-color: #455227;
+        padding-top: 5%;
+
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+
+        .menu__wrapper__cancel {
+            width: min-content;
+            position: relative;
+            left: 10%;
+            cursor: pointer;
+        }
+
+        a {
+            //color: $font_color;
+            //color: black;
+            color: #a5a133;
+            font-weight: bold;
+        }
+
+        li {
+            font-family: "Golos UI", serif;
+            position: relative;
+            left: 25%;
+            margin-top: 1.5rem;
+            width: max-content;
+            font-size: 1.5em;
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.menu__wrapper.active {
+    z-index: 10;
+    transform: translateX(0);
+    transition: 0.5s;
+}
+
+
