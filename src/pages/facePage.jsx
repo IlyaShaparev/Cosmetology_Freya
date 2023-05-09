@@ -1,10 +1,16 @@
 import React from 'react';
+import Header from "../components/header/header";
+import Section from "../components/section/section";
+import Footer from "../components/footer/footer";
+import Menu from "../components/menu/menu";
 
 function FacePage(props) {
-    alert("Скоро тут будет 'Услуги по лицу'");
     return (
-        <div>
-
+        <div className="face">
+            <Header/>
+            <Section title="face__section"/>
+            <Footer/>
+            <Menu/>
         </div>
     );
 }

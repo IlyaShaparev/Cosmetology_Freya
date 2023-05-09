@@ -35,7 +35,7 @@ function SwiperSection() {
                 dots={true}
                 showSides={true}
                 sidesOpacity={0.2}
-                sideSize={0.5}
+                sideSize={0.2}
                 slidesToScroll={3}
                 slidesToShow={3}
                 scrollOnDevice={true}

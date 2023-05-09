@@ -21,11 +21,6 @@ $font_color: #b7b455;
         background-color: #455227;
         padding-top: 5%;
 
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-
         .menu__wrapper__cancel {
             width: min-content;
             position: relative;
@@ -34,8 +29,6 @@ $font_color: #b7b455;
         }
 
         a {
-            //color: $font_color;
-            //color: black;
             color: #a5a133;
             font-weight: bold;
         }

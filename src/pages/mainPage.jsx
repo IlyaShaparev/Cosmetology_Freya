@@ -8,10 +8,9 @@ function MainPage(props) {
     return (
         <div className="main">
             <Header location="main"/>
-            <Section title="short_price"/>
-            {/*<hr className="section_separator"/>*/}
-            <Section title="stockes"/>
-            <Section title="swiper"/>
+            <Section title="short__price"/>
+            <Section title="stockes__section"/>
+            <Section title="swiper__section"/>
             <Footer />
             <Menu />
         </div>

@@ -22,7 +22,7 @@ function HeaderSection(props) {
                 </div>
 
                 <div className="headerSection__box">
-                    <h2 className="title__cream">Аппаратная косметология</h2>
+                    <h2 className="title__cream">Эпиляция</h2>
                     <Link to="./device-cosmetology" className="headerSection__box__href">
                         <button className="to__pricelist">Услуги</button>
                     </Link>

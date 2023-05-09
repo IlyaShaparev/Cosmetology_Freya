@@ -1,12 +1,12 @@
 @import url('./reset.scss');
 
-.short_price {
+.section__price__list {
   background: linear-gradient(150deg, #5e772d, #394524 6%, #313924, #262a20, #20241c, #1f221d 60%);
   padding: 1.5em;
 }
 
 .section__content__wrapper{
-  width: 85%;
+  width: 80%;
   display: flex;
   flex-flow: column nowrap;
   margin: 0 auto;
@@ -22,6 +22,11 @@
 
 #down {
   font-size: 1em;
+
+  &:hover{
+    text-decoration: underline solid;
+    cursor: pointer;
+  }
 }
 
 .price_box {
@@ -29,6 +34,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
   padding: 1.5em 2em 1.5em 2em;
   font-size: 1.8em;
   font-family: "Golos UI", serif;
@@ -37,15 +43,20 @@
   font-weight: 700;
 }
 
-.price_box:nth-child(9) {
+.price_title{
+  line-height: 1.5em;
+}
+
+.price_list {
   margin-bottom: 1.5em;
 }
 
 .price {
   font-size: 1.2em;
+  margin-left: 4em;
 }
 
-.short_price .wrapper {
+.section__price__list .wrapper {
   height: 100%;
   //background-color: #c2ba89;
 }
@@ -160,5 +171,17 @@
     }
   }
 
+}
+
+.face__section .wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.section__price__list.face__section {
+  background: linear-gradient(167deg, #5e772d, #394524 2%, #313924 4%, #262a20, #20241c, #1f221d 20%);
+  .section__content__wrapper {
+    margin: 2em;
+  }
 }
 

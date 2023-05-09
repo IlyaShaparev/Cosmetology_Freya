@@ -68,17 +68,17 @@
 }
 
 .headerSection__box:nth-child(1) {
-  background: url("./../components/subComponents/headerSection/masked_face.avif");
+  background: url("./../components/subComponents/headerSection/masked_face.avif") center;
   background-size: cover;
 }
 
 .headerSection__box:nth-child(2) {
-  background: url("./../components/subComponents/headerSection/back_vertical.avif");
+  background: url("./../components/subComponents/headerSection/back_vertical.avif") center;
   background-size: cover;
 }
 
 .headerSection__box:nth-child(3) {
-  background: url("./../components/subComponents/headerSection/Rockes-on-a-back.avif");
+  background: url("./../components/subComponents/headerSection/Rockes-on-a-back.avif") center;
   background-size: cover;
 }
 

@@ -12,3 +12,9 @@
   }
 
 }
+
+@media (max-width < 1200) {
+  .swiper .wrapper {
+    width: 100%;
+  }
+}

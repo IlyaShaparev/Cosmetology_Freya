@@ -1,10 +1,16 @@
 import React from 'react';
+import Header from "../components/header/header";
+import Section from "../components/section/section";
+import Footer from "../components/footer/footer";
+import Menu from "../components/menu/menu";
 
 function MassagePage(props) {
-    alert("Скоро тут будет 'Услуги по телу'");
     return (
-        <div>
-
+        <div className="massage">
+            <Header/>
+            <Section title="massage__section"/>
+            <Footer/>
+            <Menu/>
         </div>
     );
 }
