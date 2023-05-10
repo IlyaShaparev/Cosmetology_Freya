@@ -42,10 +42,12 @@ function Section (props) {
         case "short__price": {
             return (
                 <section className="section__price__list">
-                    <PriceList
-                        title="Приглашаем вас на процедуры"
-                        down_title="Все услуги и цены"
-                        items={price_items}/>
+                    <div className="wrapper">
+                        <PriceList
+                            title="Приглашаем вас на процедуры"
+                            down_title="Все услуги и цены"
+                            items={price_items}/>
+                    </div>
                 </section>
             )
         }

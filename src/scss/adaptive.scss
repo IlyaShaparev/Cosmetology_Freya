@@ -1,9 +1,6 @@
 @media (min-width: 1200px) {
   // HEADER ADAPTIVE
 
-
-
-
   // FOOTER ADAPTIVE
   .footer {
     #second_block{
@@ -93,6 +90,7 @@
 
 
 
+
 @media (max-width: 992px) {
   .price {
     margin: 0;
@@ -103,9 +101,11 @@
     width: 50%;
   }
 
-
   // FOOTER ADAPTIVE
 }
+
+
+
 
 
 @media (max-width: 769px) {
@@ -140,11 +140,48 @@
 
 
 @media (max-width: 576px) {
+  // PRICE_SECTION ADAPTIVE
+  .section__price__list {
+    width: 100%;
+    padding: 0;
+
+    .wrapper {
+      width: 95%;
+
+      .section__content__wrapper {
+        margin: 15px auto;
+        width: 100%;
+
+        .price_list{
+          font-size: 0.8em;
+
+          .price_title{
+            max-width: 65%;
+          }
+        }
+
+        .price_box{
+          padding: 1.1em 15px 1.1em 15px;
+
+          .price{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .main .section__price__list{
+
+    .section__content__wrapper{
+      margin-bottom: 0;
+    }
+  }
+
+
   // MENU ADAPTIVE
   .menu__wrapper .menu__content {
     width: 100%;
-    transition: 0.5s;
-
   }
 
   // FOOTER ADAPTIVE
