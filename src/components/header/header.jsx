@@ -33,7 +33,7 @@ function Header ({location}) {
                         </div>
                         <div className='wrapper_social'>
                             <a href="https://t.me/paris_sunset" className="social_media"><img src={vk} alt="ВК"/></a>
-                            <a href="https://t.me/paris_sunset" className="social_media"><img src={wts} alt="What's up"/></a>
+                            <a href="tel: +79253479575" className="social_media"><img src={wts} alt="What's up"/></a>
                         </div>
                     </div>
                 </nav>
