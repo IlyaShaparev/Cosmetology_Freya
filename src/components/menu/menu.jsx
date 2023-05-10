@@ -4,7 +4,7 @@ import laser from './laser.png'
 import cancel from './cancel.png'
 import body from './body.png'
 import face from './face.png'
-import phone from './phone.png'
+import phone from '../footer/phone.png'
 import {useSelector, useDispatch} from "react-redux";
 import {switcher} from "../../redux/slices/menuSlice"
 

@@ -3,6 +3,7 @@ import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Menu from "../components/menu/menu";
 import Section from "../components/section/section";
+import './../scss/adaptive.scss'
 
 function DevicePage(props) {
     return (
