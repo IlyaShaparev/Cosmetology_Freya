@@ -20,11 +20,10 @@ function Menu() {
             <div className="menu__content">
                 <div className="menu__wrapper__cancel" ><img src={cancel} alt="Закрыть" className='menu__img__cancel' /></div>
                 <ul>
-                    <li><Link to="/"> <img src={home} alt="img" /> Главная </Link></li>
-                    <li><Link to="/face"> <img src={face} alt="img" /> Косметология </Link></li>
-                    <li><Link to="/device-cosmetology"> <img src={laser} alt="img" /> Эпиляция </Link></li>
-                    <li><Link to="/massage"> <img src={body} alt="img" /> Массаж </Link></li>
-                    <li><Link to="/contacts"> <img src={phone} alt="img" /> Контакты </Link></li>
+                    <li><Link to="/Cosmetology_Freya/"> <img src={home} alt="img" /> Главная </Link></li>
+                    <li><Link to="/Cosmetology_Freya/face"> <img src={face} alt="img" /> Косметология </Link></li>
+                    <li><Link to="/Cosmetology_Freya/device-cosmetology"> <img src={laser} alt="img" /> Эпиляция </Link></li>
+                    <li><Link to="/Cosmetology_Freya/massage"> <img src={body} alt="img" /> Массаж </Link></li>
                 </ul>
             </div>
         </div>

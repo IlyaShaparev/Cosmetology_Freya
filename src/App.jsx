@@ -11,11 +11,11 @@ function App() {
     return (
         <div>
             <Routes>
-                <Route path="/massage" element={<MassagePage />} />
-                <Route path="/face" element={<FacePage />} />
-                <Route path="/device-cosmetology" element={<DevicePage /> } />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/" element={<MainPage />} />
+                <Route path="/Cosmetology_Freya/massage" element={<MassagePage />} />
+                <Route path="/Cosmetology_Freya/face" element={<FacePage />} />
+                <Route path="/Cosmetology_Freya/device-cosmetology" element={<DevicePage /> } />
+                <Route path="/Cosmetology_Freya/about" element={<AboutPage />} />
+                <Route path="/Cosmetology_Freya/" element={<MainPage />} />
             </Routes>
         </div>
     );
