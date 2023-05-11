@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Cosmetology_Freya/static/css/main.2ffeb702.css",
-    "main.js": "/Cosmetology_Freya/static/js/main.7a850f75.js",
-    "static/media/back_vertical.webp": "/Cosmetology_Freya/static/media/back_vertical.31c2036eff9a90656b9c.webp",
-    "static/media/Rockes-on-a-back.webp": "/Cosmetology_Freya/static/media/Rockes-on-a-back.195b262db328d7c320d6.webp",
-    "static/media/masked_face.webp": "/Cosmetology_Freya/static/media/masked_face.f1eed05c3f358d2b332c.webp",
+    "main.js": "/Cosmetology_Freya/static/js/main.29b6350f.js",
+    "static/media/back_vertical_res.webp": "/Cosmetology_Freya/static/media/back_vertical_res.06fe9f0c128c5974a4e6.webp",
+    "static/media/Rockes-on-a-back_res.webp": "/Cosmetology_Freya/static/media/Rockes-on-a-back_res.736d50ed2d361c00f1c7.webp",
+    "static/media/masked_face_res.webp": "/Cosmetology_Freya/static/media/masked_face_res.5677297db429d1637e6b.webp",
     "static/media/egia.jpg": "/Cosmetology_Freya/static/media/egia.f7930dfa0097595faefe.jpg",
     "static/media/IMG_0451.jpg": "/Cosmetology_Freya/static/media/IMG_0451.86429f9a0293d095d838.jpg",
     "static/media/Golos-UI_Regular.ttf": "/Cosmetology_Freya/static/media/Golos-UI_Regular.28e502dbcc83c91565af.ttf",
@@ -27,10 +27,10 @@
     "static/media/Aqum.woff2": "/Cosmetology_Freya/static/media/Aqum.890f264488aa725b646d.woff2",
     "index.html": "/Cosmetology_Freya/index.html",
     "main.2ffeb702.css.map": "/Cosmetology_Freya/static/css/main.2ffeb702.css.map",
-    "main.7a850f75.js.map": "/Cosmetology_Freya/static/js/main.7a850f75.js.map"
+    "main.29b6350f.js.map": "/Cosmetology_Freya/static/js/main.29b6350f.js.map"
   },
   "entrypoints": [
     "static/css/main.2ffeb702.css",
-    "static/js/main.7a850f75.js"
+    "static/js/main.29b6350f.js"
   ]
 }
