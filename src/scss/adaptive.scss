@@ -1,4 +1,6 @@
 @media (min-width: 1400px) {
+
+  // SWIPER ADAPTIVE
   .swiper{
 
     .wrapper {
@@ -26,6 +28,9 @@
 
 
 @media (max-width: 1400px) {
+
+
+  // SWIPER ADAPTIVE
   .swiper{
 
     .wrapper {
@@ -79,7 +84,33 @@
 
 
 @media (max-width: 1200px) {
+  // STOCKES ADAPTIVE
+  .stockes__section{
+    padding: 15px;
 
+    .wrapper{
+      width: 100%;
+
+      .stockes__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+        .stock {
+          width: 100%;
+
+        }
+
+        #first__stock{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+
+  // SWIPER ADAPTIVE
   .swiper {
 
     .wrapper {
@@ -168,6 +199,8 @@
 
 @media (max-width: 992px) {
 
+
+  // SWIPER ADAPTIVE
   .swiper {
 
     .wrapper {
@@ -221,6 +254,11 @@
 
 
 @media (max-width: 769px) {
+
+
+
+
+
   // PRICE_SECTION ADAPTIVE
   .section__price__list {
     width: 100%;
@@ -290,6 +328,25 @@
 
 
 @media (max-width: 576px) {
+  //HEADER_SECTION ADAPTIVE
+  .headerSection{
+
+    .headerSection__wrapper{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .headerSection__box{
+        width: 25%;
+        height: calc(4/3 * 25vh);
+        margin: 1em 0 1em 0;
+      }
+    }
+  }
+
+
   // STOCKES ADAPTIVE
   .stockes__section{
     padding: 15px;
@@ -321,8 +378,6 @@
   // MENU ADAPTIVE
   .menu__wrapper .menu__content {
     width: 100%;
-
-
   }
 
   // FOOTER ADAPTIVE
