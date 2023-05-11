@@ -1,4 +1,5 @@
 import "./../../../scss/section.scss"
+import {Link} from "react-router-dom";
 
 
 
@@ -15,19 +16,15 @@ function PriceList(props) {
                         </li>
                     )}
                 </ul>
-                <p className="title" id='down' onClick={() => {
-                    if (window.location.pathname === "/") {
+                {(window.location.pathname === "/") ?
+                    <p className="title" id='down' onClick={() => {
                         window.scrollTo({
                             top: 0,
                             behavior: 'smooth'
                         })
                     }
-                    else {
-                        window.location.href = "/";
-                    }
+                    }>{props.down_title}</p> : <Link to="/" className="title" id='down'>{props.down_title}</Link>
                 }
-                }
-                >{props.down_title}</p>
             </div>
     )
 }

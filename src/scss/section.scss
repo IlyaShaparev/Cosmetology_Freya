@@ -2,7 +2,7 @@
 
 .section__price__list {
   background: linear-gradient(150deg, #5e772d, #394524 6%, #313924, #262a20, #20241c, #1f221d 60%);
-  padding: 1.5em;
+  padding-top: 15px;
 }
 
 .section__content__wrapper{
@@ -85,13 +85,16 @@
 
     .stock {
       margin: auto;
-      width: 500px;
+      width: 45%;
+      max-width: 500px;
+      height: 300px;
       position: relative;
       display: inline-block;
 
-
       img {
-        width: 500px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
         height: 300px;
       }
 

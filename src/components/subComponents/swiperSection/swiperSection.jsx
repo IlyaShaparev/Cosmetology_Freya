@@ -18,17 +18,75 @@ function SwiperSection() {
             <InfiniteCarousel
                 breakpoints={[
                     {
-                        breakpoint: 500,
+                        breakpoint: 569,
                         settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: false,
+                            showSides: false,
+                            sidesOpacity: 0,
+                            sideSize: 0,
+                            scrollOnDevice: true,
                         },
                     },
                     {
-                        breakpoint: 768,
+                        breakpoint: 769,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: false,
+                            showSides: false,
+                            sidesOpacity: 0,
+                            sideSize: 0,
+                            scrollOnDevice: true,
+                        },
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            dots: false,
+                            showSides: false,
+                            sidesOpacity: 0,
+                            sideSize: 0,
+                            scrollOnDevice: true,
+                        },
+                    },
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            dots: false,
+                            showSides: false,
+                            sidesOpacity: 0,
+                            sideSize: 0,
+                            scrollOnDevice: true,
+                        },
+                    },
+                    {
+                        breakpoint: 1900,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
+                            dots: false,
+                            showSides: true,
+                            sidesOpacity: 0,
+                            sideSize: 0,
+                            scrollOnDevice: true,
+                        },
+                    },
+                    {
+                        breakpoint: 3300,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2,
+                            dots: false,
+                            showSides: true,
+                            sidesOpacity: 0.2,
+                            sideSize: 0.2,
+                            scrollOnDevice: true,
                         },
                     },
                 ]}

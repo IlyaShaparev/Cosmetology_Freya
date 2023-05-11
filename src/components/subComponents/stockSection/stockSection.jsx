@@ -8,15 +8,14 @@ const StockSection = () => {
         <div className="wrapper">
             <h2 className="stockes__title">Акции</h2>
             <div className="stockes__container">
-                <div className="stock">
+                <div className="stock" id="first__stock">
                     <img src={egia} alt="egia"/>
                     <div className="stock__text__content">
                         <h3>Курс EGIA ухода</h3>
                         <p className="stock__desciption">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque blanditiis consequatur doloribus esse explicabo inventore
-                            maxime nam necessitatibus nemo neque optio quae quis quo repellendus,
-                            saepe unde vel voluptatem voluptatibus.
+                            Легендарная марка из Италии EGIA была основана в 1989 году.
+                            При создании средств EGIA используются современные научные разработки
+                            и открытия в области косметологии и дерматологии.
                         </p>
                         <p className="stock__desciption">
                             -30% при покупке курса из 10 сеансов

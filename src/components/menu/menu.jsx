@@ -7,6 +7,7 @@ import face from './face.png'
 import phone from '../footer/phone.png'
 import {useSelector, useDispatch} from "react-redux";
 import {switcher} from "../../redux/slices/menuSlice"
+import {Link} from "react-router-dom";
 
 
 function Menu() {
@@ -19,11 +20,11 @@ function Menu() {
             <div className="menu__content">
                 <div className="menu__wrapper__cancel" ><img src={cancel} alt="Закрыть" className='menu__img__cancel' /></div>
                 <ul>
-                    <li><a href="/"> <img src={home} alt="img" /> Главная </a></li>
-                    <li><a href="/face"> <img src={face} alt="img" /> Косметология </a></li>
-                    <li><a href="/device-cosmetology"> <img src={laser} alt="img" /> Эпиляция </a></li>
-                    <li><a href="/massage"> <img src={body} alt="img" /> Массаж </a></li>
-                    <li><a href="/contacts"> <img src={phone} alt="img" /> Контакты </a></li>
+                    <li><Link to="/"> <img src={home} alt="img" /> Главная </Link></li>
+                    <li><Link to="/face"> <img src={face} alt="img" /> Косметология </Link></li>
+                    <li><Link to="/device-cosmetology"> <img src={laser} alt="img" /> Эпиляция </Link></li>
+                    <li><Link to="/massage"> <img src={body} alt="img" /> Массаж </Link></li>
+                    <li><Link to="/contacts"> <img src={phone} alt="img" /> Контакты </Link></li>
                 </ul>
             </div>
         </div>
