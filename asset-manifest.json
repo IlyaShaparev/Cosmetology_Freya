@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Cosmetology_Freya/static/css/main.2ffeb702.css",
-    "main.js": "/Cosmetology_Freya/static/js/main.6f3ce63b.js",
-    "static/media/back_vertical.avif": "/Cosmetology_Freya/static/media/back_vertical.95eabdcef1a2580fc86e.avif",
-    "static/media/Rockes-on-a-back.avif": "/Cosmetology_Freya/static/media/Rockes-on-a-back.8254213908594db28594.avif",
+    "main.js": "/Cosmetology_Freya/static/js/main.7a850f75.js",
+    "static/media/back_vertical.webp": "/Cosmetology_Freya/static/media/back_vertical.31c2036eff9a90656b9c.webp",
+    "static/media/Rockes-on-a-back.webp": "/Cosmetology_Freya/static/media/Rockes-on-a-back.195b262db328d7c320d6.webp",
+    "static/media/masked_face.webp": "/Cosmetology_Freya/static/media/masked_face.f1eed05c3f358d2b332c.webp",
     "static/media/egia.jpg": "/Cosmetology_Freya/static/media/egia.f7930dfa0097595faefe.jpg",
     "static/media/IMG_0451.jpg": "/Cosmetology_Freya/static/media/IMG_0451.86429f9a0293d095d838.jpg",
     "static/media/Golos-UI_Regular.ttf": "/Cosmetology_Freya/static/media/Golos-UI_Regular.28e502dbcc83c91565af.ttf",
-    "static/media/masked_face.avif": "/Cosmetology_Freya/static/media/masked_face.d0146c9f56a5f7041a90.avif",
     "static/media/IMG_0431.jpg": "/Cosmetology_Freya/static/media/IMG_0431.a4df4eba5a54b14a715d.jpg",
     "static/media/header_5.avif": "/Cosmetology_Freya/static/media/header_5.a2563f83bef41f9a01fa.avif",
     "static/media/general_first.jpg": "/Cosmetology_Freya/static/media/general_first.7e5802c3808eaeda7ec6.jpg",
@@ -27,10 +27,10 @@
     "static/media/Aqum.woff2": "/Cosmetology_Freya/static/media/Aqum.890f264488aa725b646d.woff2",
     "index.html": "/Cosmetology_Freya/index.html",
     "main.2ffeb702.css.map": "/Cosmetology_Freya/static/css/main.2ffeb702.css.map",
-    "main.6f3ce63b.js.map": "/Cosmetology_Freya/static/js/main.6f3ce63b.js.map"
+    "main.7a850f75.js.map": "/Cosmetology_Freya/static/js/main.7a850f75.js.map"
   },
   "entrypoints": [
     "static/css/main.2ffeb702.css",
-    "static/js/main.6f3ce63b.js"
+    "static/js/main.7a850f75.js"
   ]
 }
