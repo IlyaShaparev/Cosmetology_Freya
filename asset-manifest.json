@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.96eb54f7.css",
+    "main.js": "/react-gh-pages/static/js/main.422ab97f.js",
+    "static/media/back_vertical.avif": "/react-gh-pages/static/media/back_vertical.95eabdcef1a2580fc86e.avif",
+    "static/media/Rockes-on-a-back.avif": "/react-gh-pages/static/media/Rockes-on-a-back.8254213908594db28594.avif",
+    "static/media/egia.jpg": "/react-gh-pages/static/media/egia.f7930dfa0097595faefe.jpg",
+    "static/media/IMG_0451.jpg": "/react-gh-pages/static/media/IMG_0451.86429f9a0293d095d838.jpg",
+    "static/media/Golos-UI_Regular.ttf": "/react-gh-pages/static/media/Golos-UI_Regular.28e502dbcc83c91565af.ttf",
+    "static/media/masked_face.avif": "/react-gh-pages/static/media/masked_face.d0146c9f56a5f7041a90.avif",
+    "static/media/IMG_0431.jpg": "/react-gh-pages/static/media/IMG_0431.a4df4eba5a54b14a715d.jpg",
+    "static/media/header_5.avif": "/react-gh-pages/static/media/header_5.a2563f83bef41f9a01fa.avif",
+    "static/media/general_first.jpg": "/react-gh-pages/static/media/general_first.7e5802c3808eaeda7ec6.jpg",
+    "static/media/general_second.jpg": "/react-gh-pages/static/media/general_second.e9529a7d3ae19b36a0ab.jpg",
+    "static/media/table_first.jpg": "/react-gh-pages/static/media/table_first.7b1d22f3c32ad1b1289a.jpg",
+    "static/media/4.jpg": "/react-gh-pages/static/media/4.8a89ef0c75deb24adecd.jpg",
+    "static/media/device_elos_first.jpg": "/react-gh-pages/static/media/device_elos_first.41d1fdeb620fd54664bd.jpg",
+    "static/media/Aqum.eot": "/react-gh-pages/static/media/Aqum.836c1bdb9a625eef2279.eot",
+    "static/media/Aqum.ttf": "/react-gh-pages/static/media/Aqum.f54a9682f6589fd78247.ttf",
+    "static/media/IMG_20221112_150052.jpg": "/react-gh-pages/static/media/IMG_20221112_150052.d01e1d2737fd549e7b91.jpg",
+    "static/media/device_first.jpg": "/react-gh-pages/static/media/device_first.f49e1807f3c1372bf515.jpg",
+    "static/media/small_logo.png": "/react-gh-pages/static/media/small_logo.4076c5e1b7bb21bacd4a.png",
+    "static/media/laser_res.jpg": "/react-gh-pages/static/media/laser_res.8a80342098c7ef93eda3.jpg",
+    "static/media/laser.png": "/react-gh-pages/static/media/laser.856aaa77f3c63b8d039d.png",
+    "static/media/body.png": "/react-gh-pages/static/media/body.e130cd461f6338b02968.png",
+    "static/media/Aqum.woff": "/react-gh-pages/static/media/Aqum.a2d24901404327da7631.woff",
+    "static/media/Aqum.woff2": "/react-gh-pages/static/media/Aqum.890f264488aa725b646d.woff2",
+    "index.html": "/react-gh-pages/index.html",
+    "main.96eb54f7.css.map": "/react-gh-pages/static/css/main.96eb54f7.css.map",
+    "main.422ab97f.js.map": "/react-gh-pages/static/js/main.422ab97f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96eb54f7.css",
+    "static/js/main.422ab97f.js"
+  ]
+}
