@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cosmetology_Freya/static/css/main.fe459e4f.css",
+    "main.css": "/Cosmetology_Freya/static/css/main.4075c2a6.css",
     "main.js": "/Cosmetology_Freya/static/js/main.6f3ce63b.js",
     "static/media/back_vertical.avif": "/Cosmetology_Freya/static/media/back_vertical.95eabdcef1a2580fc86e.avif",
     "static/media/Rockes-on-a-back.avif": "/Cosmetology_Freya/static/media/Rockes-on-a-back.8254213908594db28594.avif",
@@ -26,11 +26,11 @@
     "static/media/Aqum.woff": "/Cosmetology_Freya/static/media/Aqum.a2d24901404327da7631.woff",
     "static/media/Aqum.woff2": "/Cosmetology_Freya/static/media/Aqum.890f264488aa725b646d.woff2",
     "index.html": "/Cosmetology_Freya/index.html",
-    "main.fe459e4f.css.map": "/Cosmetology_Freya/static/css/main.fe459e4f.css.map",
+    "main.4075c2a6.css.map": "/Cosmetology_Freya/static/css/main.4075c2a6.css.map",
     "main.6f3ce63b.js.map": "/Cosmetology_Freya/static/js/main.6f3ce63b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe459e4f.css",
+    "static/css/main.4075c2a6.css",
     "static/js/main.6f3ce63b.js"
   ]
 }
