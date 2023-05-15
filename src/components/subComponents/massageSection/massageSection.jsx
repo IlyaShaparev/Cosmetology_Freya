@@ -1,18 +1,17 @@
 import React from 'react';
 import PriceList from "../priceList/priceList";
 
+let massage_price_items = [
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+    {name: "Какой-то там массажик", price: "Пока думаем"},
+];
+
 const MassageSection = () => {
-
-    const massage_price_items = [
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-        {name: "Какой-то там массажик", price: "Пока думаем"},
-    ]
-
 
     return (
         <div className="wrapper">
@@ -25,4 +24,5 @@ const MassageSection = () => {
     );
 };
 
+export const Massage = massage_price_items;
 export default MassageSection;

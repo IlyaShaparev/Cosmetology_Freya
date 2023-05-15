@@ -12,7 +12,7 @@ function HeaderSection(props) {
             <div className="headerSection__wrapper">
 
                 <div className="headerSection__box">
-                    <img src={ph_first} alt="Услуги косметологии"/>
+                    <img src={ph_third} alt="Услуги косметологии"/>
                     <div className="headerSection__box__content">
                         <h2 className="title__face">Лицо</h2>
                         <Link to="/Cosmetology_Freya/face" >
@@ -32,7 +32,7 @@ function HeaderSection(props) {
                 </div>
 
                 <div className="headerSection__box">
-                    <img src={ph_third} alt="Услуги эпиляции"/>
+                    <img src={ph_first} alt="Услуги эпиляции"/>
                     <div className="headerSection__box__content">
                         <h2 className="title__cream">Эпиляция</h2>
                         <Link to="/Cosmetology_Freya/device-cosmetology" className="headerSection__box__href">

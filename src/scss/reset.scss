@@ -8,7 +8,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;                            // Размер шифта относительно родительского элемента
+  font-size: 100%;                            // Размер шрифта относительно родительского элемента
   font: inherit;
   vertical-align: baseline;                   // Вертикальное выравнивание по базовой линии родительского элемента
   text-rendering: optimizeLegibility;         // Упор рендеринга на удобочитабельность (Использование кернинга и лигатур)
@@ -44,7 +44,7 @@ table{
 }
 
 input{
-  -webkit-appearance: none;
+  //-webkit-appearance: none;
   border-radius: 0;
 }
 

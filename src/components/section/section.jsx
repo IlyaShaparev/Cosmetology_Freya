@@ -5,6 +5,7 @@ import SwiperSection from "../subComponents/swiperSection/swiperSection";
 import DeviceSection from "../subComponents/deviceSection/deviceSection";
 import FaceSection from "../subComponents/faceSection/faceSection";
 import MassageSection from "../subComponents/massageSection/massageSection";
+import OrderSection from "../subComponents/orderSection/orderSection";
 
 
 function Section (props) {
@@ -80,6 +81,14 @@ function Section (props) {
             return (
                 <section className="section__price__list massage__section">
                     <MassageSection />
+                </section>
+            )
+        }
+
+        case "order__section": {
+            return (
+                <section className="section__price__list order__section">
+                    <OrderSection />
                 </section>
             )
         }

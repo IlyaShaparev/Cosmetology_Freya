@@ -4,7 +4,8 @@ import MainPage from "./pages/mainPage";
 import FacePage from "./pages/facePage";
 import MassagePage from "./pages/massagePage";
 import DevicePage from "./pages/devicePage";
-import AboutPage from "./pages/aboutPage";
+import OrderPage from "./pages/orderPage";
+import AdminPage from "./pages/adminPage";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
                 <Route path="/Cosmetology_Freya/massage" element={<MassagePage />} />
                 <Route path="/Cosmetology_Freya/face" element={<FacePage />} />
                 <Route path="/Cosmetology_Freya/device-cosmetology" element={<DevicePage /> } />
-                <Route path="/Cosmetology_Freya/about" element={<AboutPage />} />
+                <Route path="/Cosmetology_Freya/order" element={<OrderPage />} />
+                <Route path="/Cosmetology_Freya/admin" element={<AdminPage />} />
                 <Route path="/Cosmetology_Freya/" element={<MainPage />} />
             </Routes>
         </div>

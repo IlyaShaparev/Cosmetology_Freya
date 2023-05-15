@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(218, 218, 218);
+
+
+  .admin {
+    width: 100%;
+    min-height: 90vh;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Aqum', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .button_function {
+      display: block;
+      width: 200px;
+      margin: 20px auto auto;
+    }
+
+
+    h1, h2{
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    form{
+      width: 50%;
+      margin: 20px 0 ;
+
+      input, button {
+        display: block;
+        width: 350px;
+        height: 30px;
+        margin: 20px auto;
+        border-radius: 20px;
+        border: 2px solid #000000;
+        color: #000000;
+        background-color: #c8c8c8;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+    }
+
+    table {
+      margin: 20px auto auto;
+      text-align: center;
+      width: 90%;
+      border: 1px solid grey;
+
+      caption{
+        color: red
+      }
+
+
+      th {
+      border: 1px solid grey;
+      }
+
+      td {
+      border: 1px solid grey;
+      }
+
+    }
+
+    .table_sort table {
+      border-collapse: collapse;
+    }
+
+    .table_sort th {
+      color: #ffebcd;
+      background: #1e8c34;
+      cursor: pointer;
+    }
+
+    .table_sort td,
+    .table_sort th {
+      width: 150px;
+      height: 40px;
+      text-align: center;
+      border: 2px solid
+      #846868;
+    }
+
+    .table_sort tbody tr:nth-child(even) {
+      background:
+              #e3e3e3;
+    }
+
+    th.sorted[data-order="1"],
+    th.sorted[data-order="-1"] {
+      position: relative;
+    }
+
+    th.sorted[data-order="1"]::after,
+    th.sorted[data-order="-1"]::after {
+      right: 8px;
+      position: absolute;
+    }
+
+    th.sorted[data-order="-1"]::after {
+      content: "▼"
+    }
+
+    th.sorted[data-order="1"]::after {
+      content: "▲"
+    }
+  }
+}

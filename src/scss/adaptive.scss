@@ -84,6 +84,12 @@
 
 
 @media (max-width: 1200px) {
+  .headerSection__box{
+    margin: 1em 0;
+  }
+
+
+
   // STOCKES ADAPTIVE
   .stockes__section{
     padding: 15px;
@@ -328,6 +334,22 @@
 
 
 @media (max-width: 576px) {
+
+
+  .admin {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    form {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+
   //HEADER_SECTION ADAPTIVE
   .headerSection{
 
@@ -339,12 +361,23 @@
       align-items: center;
 
       .headerSection__box{
-        width: 25%;
-        height: calc(4/3 * 25vh);
-        margin: 1em 0 1em 0;
+        margin: 1em 0;
       }
     }
   }
+
+  // PriceList adaptive
+  .face__section {
+    .title {
+      font-size: 1.2em;
+
+      &#first_title {
+        font-size: 2em;
+      }
+    }
+  }
+
+
 
 
   // STOCKES ADAPTIVE

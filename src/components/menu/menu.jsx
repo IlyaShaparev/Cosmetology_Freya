@@ -23,6 +23,7 @@ function Menu() {
                     <li><Link to="/Cosmetology_Freya/face"> <img src={face} alt="img" /> Косметология </Link></li>
                     <li><Link to="/Cosmetology_Freya/device-cosmetology"> <img src={laser} alt="img" /> Эпиляция </Link></li>
                     <li><Link to="/Cosmetology_Freya/massage"> <img src={body} alt="img" /> Массаж </Link></li>
+                    <li><Link to="/Cosmetology_Freya/order"> <img src={body} alt="img" /> Запись </Link></li>
                 </ul>
             </div>
         </div>

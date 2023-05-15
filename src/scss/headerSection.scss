@@ -8,7 +8,7 @@
   width: 80%;
   height: max-content;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
   margin: auto;
@@ -17,7 +17,7 @@
 .headerSection__box {
   display: inline-block;
   position: relative;
-  width: 25%;
+  width: 300px;
   height: 50vh;
   margin: 1em 0 4em 0;
 
