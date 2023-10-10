@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Cosmetology_Freya/static/css/main.ac7e3442.css",
-    "main.js": "/Cosmetology_Freya/static/js/main.c423e339.js",
+    "main.js": "/Cosmetology_Freya/static/js/main.98b778d4.js",
     "static/media/back_vertical.avif": "/Cosmetology_Freya/static/media/back_vertical.95eabdcef1a2580fc86e.avif",
-    "static/media/Rockes-on-a-back.avif": "/Cosmetology_Freya/static/media/Rockes-on-a-back.8254213908594db28594.avif",
     "static/media/egia.jpg": "/Cosmetology_Freya/static/media/egia.f7930dfa0097595faefe.jpg",
     "static/media/IMG_0451.jpg": "/Cosmetology_Freya/static/media/IMG_0451.86429f9a0293d095d838.jpg",
     "static/media/Golos-UI_Regular.ttf": "/Cosmetology_Freya/static/media/Golos-UI_Regular.28e502dbcc83c91565af.ttf",
     "static/media/masked_face.avif": "/Cosmetology_Freya/static/media/masked_face.d0146c9f56a5f7041a90.avif",
+    "static/media/back_vertical.jpg": "/Cosmetology_Freya/static/media/back_vertical.ad323c482af53f722baf.jpg",
+    "static/media/masked_face.jpg": "/Cosmetology_Freya/static/media/masked_face.bb122bd1784617c833b1.jpg",
     "static/media/IMG_0431.jpg": "/Cosmetology_Freya/static/media/IMG_0431.a4df4eba5a54b14a715d.jpg",
     "static/media/header_5.avif": "/Cosmetology_Freya/static/media/header_5.a2563f83bef41f9a01fa.avif",
     "static/media/general_first.jpg": "/Cosmetology_Freya/static/media/general_first.7e5802c3808eaeda7ec6.jpg",
@@ -21,16 +22,18 @@
     "static/media/device_first.jpg": "/Cosmetology_Freya/static/media/device_first.f49e1807f3c1372bf515.jpg",
     "static/media/small_logo.png": "/Cosmetology_Freya/static/media/small_logo.4076c5e1b7bb21bacd4a.png",
     "static/media/laser_res.jpg": "/Cosmetology_Freya/static/media/laser_res.8a80342098c7ef93eda3.jpg",
+    "static/media/laser_epilation1.jpg": "/Cosmetology_Freya/static/media/laser_epilation1.81c1282605dc1ec66a89.jpg",
     "static/media/laser.png": "/Cosmetology_Freya/static/media/laser.856aaa77f3c63b8d039d.png",
     "static/media/body.png": "/Cosmetology_Freya/static/media/body.e130cd461f6338b02968.png",
     "static/media/Aqum.woff": "/Cosmetology_Freya/static/media/Aqum.a2d24901404327da7631.woff",
     "static/media/Aqum.woff2": "/Cosmetology_Freya/static/media/Aqum.890f264488aa725b646d.woff2",
+    "static/media/laser_epilation1.avif": "/Cosmetology_Freya/static/media/laser_epilation1.77ff45611a5c58c6fd4b.avif",
     "index.html": "/Cosmetology_Freya/index.html",
     "main.ac7e3442.css.map": "/Cosmetology_Freya/static/css/main.ac7e3442.css.map",
-    "main.c423e339.js.map": "/Cosmetology_Freya/static/js/main.c423e339.js.map"
+    "main.98b778d4.js.map": "/Cosmetology_Freya/static/js/main.98b778d4.js.map"
   },
   "entrypoints": [
     "static/css/main.ac7e3442.css",
-    "static/js/main.c423e339.js"
+    "static/js/main.98b778d4.js"
   ]
 }
