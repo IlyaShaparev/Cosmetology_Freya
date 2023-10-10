@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cosmetology_Freya/static/css/main.ac7e3442.css",
-    "main.js": "/Cosmetology_Freya/static/js/main.98b778d4.js",
+    "main.js": "/Cosmetology_Freya/static/js/main.03bb2eb9.js",
     "static/media/back_vertical.avif": "/Cosmetology_Freya/static/media/back_vertical.95eabdcef1a2580fc86e.avif",
     "static/media/egia.jpg": "/Cosmetology_Freya/static/media/egia.f7930dfa0097595faefe.jpg",
     "static/media/IMG_0451.jpg": "/Cosmetology_Freya/static/media/IMG_0451.86429f9a0293d095d838.jpg",
@@ -30,10 +30,10 @@
     "static/media/laser_epilation1.avif": "/Cosmetology_Freya/static/media/laser_epilation1.77ff45611a5c58c6fd4b.avif",
     "index.html": "/Cosmetology_Freya/index.html",
     "main.ac7e3442.css.map": "/Cosmetology_Freya/static/css/main.ac7e3442.css.map",
-    "main.98b778d4.js.map": "/Cosmetology_Freya/static/js/main.98b778d4.js.map"
+    "main.03bb2eb9.js.map": "/Cosmetology_Freya/static/js/main.03bb2eb9.js.map"
   },
   "entrypoints": [
     "static/css/main.ac7e3442.css",
-    "static/js/main.98b778d4.js"
+    "static/js/main.03bb2eb9.js"
   ]
 }
